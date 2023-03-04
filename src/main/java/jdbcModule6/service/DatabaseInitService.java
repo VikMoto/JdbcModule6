@@ -1,8 +1,6 @@
 package jdbcModule6.service;
 
-import jdbcModule6.database.DataBase;
-import jdbcModule6.utils.ExecuteService;
-import jdbcModule6.utils.Prefs;
+
 import org.flywaydb.core.Flyway;
 
 import java.sql.*;
@@ -10,10 +8,7 @@ import java.sql.*;
 import static jdbcModule6.service.StorageConstants.*;
 
 public class DatabaseInitService {
-    public static DataBase Database;
-
-
-   public void initDb(){
+      public void initDb(){
        // First, create the database if it doesn't exist
        if (!databaseExists()) {
            String createDbSql = "CREATE DATABASE megasoft;";
