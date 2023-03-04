@@ -1,0 +1,6 @@
+{
+  "jdbcUrl": "jdbc:postgresql://localhost:5432/flight_repository",
+  "user": "postgres",
+  "pass": "postgres",
+  "initDBSql": "E:\\Business\\Code\\Projects\\MyJavaCoreDev\\GoIT\\resources\\initDB.sql"
+}
